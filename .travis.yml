@@ -13,7 +13,7 @@ deploy:
     edge: true,
     skip-cleanup: true
     keep-history: true
-    github-token: $Spa-TheMovie
+    github-token: $GIT-THEMOVIE
     local-dir: dist/
     target-branch: gh-pages
     commit_message: "Deploy Release"
