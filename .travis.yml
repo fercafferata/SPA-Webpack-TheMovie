@@ -13,7 +13,7 @@ deploy:
     edge: true,
     skip-cleanup: true
     keep-history: true
-    github-token: $GIT-TRAVIS
+    github-token: $GIT-TOKEN
     local-dir: dist/
     target-branch: gh-pages
     commit_message: "Deploy Release"
